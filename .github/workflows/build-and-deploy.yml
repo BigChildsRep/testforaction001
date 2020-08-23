@@ -4,6 +4,7 @@ on: [push]
 
 env:
   AZURE_WEBAPP_NAME: af-linuxapp #set this to your application name
+  AZURE_WEBAPP_SECRET: "Ding" 
   AZURE_WEBAPP_PACKAGE_PATH: "./published" #set this to the path of you WebApp
   NETCORE_VERSION: "3.1.103"
 
